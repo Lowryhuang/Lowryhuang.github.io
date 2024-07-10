@@ -1,0 +1,15 @@
+git init
+#更新my_branch  
+git pull oringin branch
+#查看本地状态
+git status
+#添加本地修改文件
+git add.
+#读取终端输入的信息
+read -p "input my commit message: "msg
+#提交
+git commit -m "$msg"
+#添加远程remote
+git remote add origin https://github.com/Lowryhuang.git
+#推送到指定分支
+git push origin my_branch
